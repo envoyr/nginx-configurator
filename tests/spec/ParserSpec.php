@@ -1,19 +1,19 @@
 <?php
 
-namespace spec\Madkom\NginxConfigurator;
+namespace spec\Envoyr\NginxConfigurator;
 
 use Ferno\Loco\ParseFailureException;
-use Madkom\NginxConfigurator\Config\Http;
-use Madkom\NginxConfigurator\Config\Location;
-use Madkom\NginxConfigurator\Config\Server;
-use Madkom\NginxConfigurator\Config\Upstream;
-use Madkom\NginxConfigurator\Node\Context;
-use Madkom\NginxConfigurator\Node\Directive;
-use Madkom\NginxConfigurator\Node\Literal;
-use Madkom\NginxConfigurator\Node\Node;
-use Madkom\NginxConfigurator\Node\Param;
-use Madkom\NginxConfigurator\Node\RootNode;
-use Madkom\NginxConfigurator\Parser;
+use Envoyr\NginxConfigurator\Config\Http;
+use Envoyr\NginxConfigurator\Config\Location;
+use Envoyr\NginxConfigurator\Config\Server;
+use Envoyr\NginxConfigurator\Config\Upstream;
+use Envoyr\NginxConfigurator\Node\Context;
+use Envoyr\NginxConfigurator\Node\Directive;
+use Envoyr\NginxConfigurator\Node\Literal;
+use Envoyr\NginxConfigurator\Node\Node;
+use Envoyr\NginxConfigurator\Node\Param;
+use Envoyr\NginxConfigurator\Node\RootNode;
+use Envoyr\NginxConfigurator\Parser;
 use PhpSpec\ObjectBehavior;
 use PHPUnit_Framework_Assert as Assert;
 use Prophecy\Argument;
@@ -21,7 +21,7 @@ use Traversable;
 
 /**
  * Class ParserSpec
- * @package spec\Madkom\NginxConfigurator
+ * @package spec\Envoyr\NginxConfigurator
  * @author Michał Brzuchalski <m.brzuchalski@madkom.pl>
  * @mixin Parser
  */

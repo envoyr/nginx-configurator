@@ -7,13 +7,13 @@
  */
 namespace Envoyr\NginxConfigurator\Config;
 
-use Madkom\NginxConfigurator\Node\Context;
-use Madkom\NginxConfigurator\Node\Literal;
-use Madkom\NginxConfigurator\Node\Param;
+use Envoyr\NginxConfigurator\Node\Context;
+use Envoyr\NginxConfigurator\Node\Literal;
+use Envoyr\NginxConfigurator\Node\Param;
 
 /**
  * Class Location
- * @package Madkom\NginxConfigurator\Config
+ * @package Envoyr\NginxConfigurator\Config
  * @author Michał Brzuchalski <m.brzuchalski@madkom.pl>
  */
 class Location extends Context

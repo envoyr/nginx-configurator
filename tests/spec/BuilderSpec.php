@@ -1,15 +1,15 @@
 <?php
-namespace spec\Madkom\NginxConfigurator;
+namespace spec\Envoyr\NginxConfigurator;
 
-use Madkom\NginxConfigurator\Builder;
-use Madkom\NginxConfigurator\Config\Server;
-use Madkom\NginxConfigurator\Config\Upstream;
+use Envoyr\NginxConfigurator\Builder;
+use Envoyr\NginxConfigurator\Config\Server;
+use Envoyr\NginxConfigurator\Config\Upstream;
 use PhpSpec\ObjectBehavior;
 use Prophecy\Argument;
 
 /**
  * Class BuilderSpec
- * @package spec\Madkom\NginxConfigurator
+ * @package spec\Envoyr\NginxConfigurator
  * @author Michał Brzuchalski <m.brzuchalski@madkom.pl>
  * @mixin Builder
  */

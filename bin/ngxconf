@@ -16,12 +16,12 @@ if (file_exists(__DIR__ . '/../vendor/autoload.php')) {
     );
 }
 
-use Madkom\NginxConfigurator\Command\AddLocationCommand;
-use Madkom\NginxConfigurator\Command\AddServerCommand;
-use Madkom\NginxConfigurator\Command\AddUpstreamServerCommand;
-use Madkom\NginxConfigurator\Command\RemoveLocationCommand;
-use Madkom\NginxConfigurator\Command\RemoveServerCommand;
-use Madkom\NginxConfigurator\Command\RemoveUpstreamServerCommand;
+use Envoyr\NginxConfigurator\Command\AddLocationCommand;
+use Envoyr\NginxConfigurator\Command\AddServerCommand;
+use Envoyr\NginxConfigurator\Command\AddUpstreamServerCommand;
+use Envoyr\NginxConfigurator\Command\RemoveLocationCommand;
+use Envoyr\NginxConfigurator\Command\RemoveServerCommand;
+use Envoyr\NginxConfigurator\Command\RemoveUpstreamServerCommand;
 use Symfony\Component\Console\Application;
 use Symfony\Component\Console\Command\Command;
 

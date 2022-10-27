@@ -8,14 +8,14 @@
 namespace Envoyr\NginxConfigurator;
 
 use Countable;
-use Madkom\Collection\CustomTypedCollection;
-use Madkom\NginxConfigurator\Node\Node;
-use Madkom\NginxConfigurator\Node\RootNode;
+use Envoyr\Collection\CustomTypedCollection;
+use Envoyr\NginxConfigurator\Node\Node;
+use Envoyr\NginxConfigurator\Node\RootNode;
 use Traversable;
 
 /**
  * Class Builder
- * @package Madkom\NginxConfigurator
+ * @package Envoyr\NginxConfigurator
  * @author Michał Brzuchalski <m.brzuchalski@madkom.pl>
  */
 class Builder implements Countable

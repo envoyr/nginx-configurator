@@ -1,15 +1,15 @@
 <?php
-namespace spec\Madkom\NginxConfigurator;
+namespace spec\Envoyr\NginxConfigurator;
 
-use Madkom\NginxConfigurator\Config\Location;
-use Madkom\NginxConfigurator\Config\Server;
-use Madkom\NginxConfigurator\Factory;
+use Envoyr\NginxConfigurator\Config\Location;
+use Envoyr\NginxConfigurator\Config\Server;
+use Envoyr\NginxConfigurator\Factory;
 use PhpSpec\ObjectBehavior;
 use Prophecy\Argument;
 
 /**
  * Class FactorySpec
- * @package spec\Madkom\NginxConfigurator
+ * @package spec\Envoyr\NginxConfigurator
  * @author Michał Brzuchalski <m.brzuchalski@madkom.pl>
  * @mixin Factory
  */

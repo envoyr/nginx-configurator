@@ -9,7 +9,7 @@ namespace Envoyr\NginxConfigurator\Node;
 
 /**
  * Class Context
- * @package Madkom\NginxConfigurator\Node
+ * @package Envoyr\NginxConfigurator\Node
  * @author Michał Brzuchalski <m.brzuchalski@madkom.pl>
  */
 abstract class Context extends Node

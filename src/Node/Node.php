@@ -9,12 +9,12 @@ namespace Envoyr\NginxConfigurator\Node;
 
 use Countable;
 use IteratorAggregate;
-use Madkom\Collection\CustomTypedCollection;
+use Envoyr\Collection\CustomTypedCollection;
 use Traversable;
 
 /**
  * Class Node
- * @package Madkom\NginxConfigurator
+ * @package Envoyr\NginxConfigurator
  * @author Michał Brzuchalski <m.brzuchalski@madkom.pl>
  */
 abstract class Node implements Countable, IteratorAggregate

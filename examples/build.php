@@ -1,11 +1,11 @@
 <?php
 
-use Madkom\NginxConfigurator\Builder;
-use Madkom\NginxConfigurator\Config\Location;
-use Madkom\NginxConfigurator\Factory;
-use Madkom\NginxConfigurator\Node\Directive;
-use Madkom\NginxConfigurator\Node\Literal;
-use Madkom\NginxConfigurator\Node\Param;
+use Envoyr\NginxConfigurator\Builder;
+use Envoyr\NginxConfigurator\Config\Location;
+use Envoyr\NginxConfigurator\Factory;
+use Envoyr\NginxConfigurator\Node\Directive;
+use Envoyr\NginxConfigurator\Node\Literal;
+use Envoyr\NginxConfigurator\Node\Param;
 
 require __DIR__ . '/../vendor/autoload.php';
 

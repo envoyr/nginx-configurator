@@ -30,9 +30,9 @@ This library requires *PHP* in `>=8.1` version.
 Parsing configuration string:
 
 ```php
-use Madkom\NginxConfigurator\Builder;
-use Madkom\NginxConfigurator\Config\Server;
-use Madkom\NginxConfigurator\Parser;
+use Envoyr\NginxConfigurator\Builder;
+use Envoyr\NginxConfigurator\Config\Server;
+use Envoyr\NginxConfigurator\Parser;
 
 require 'vendor/autoload.php';
 
@@ -84,12 +84,12 @@ if (count($defaultServers) > 0) {
 Generating configuration string:
 
 ```php
-use Madkom\NginxConfigurator\Factory;
-use Madkom\NginxConfigurator\Builder;
-use Madkom\NginxConfigurator\Config\Location;
-use Madkom\NginxConfigurator\Node\Directive;
-use Madkom\NginxConfigurator\Node\Literal;
-use Madkom\NginxConfigurator\Node\Param;
+use Envoyr\NginxConfigurator\Factory;
+use Envoyr\NginxConfigurator\Builder;
+use Envoyr\NginxConfigurator\Config\Location;
+use Envoyr\NginxConfigurator\Node\Directive;
+use Envoyr\NginxConfigurator\Node\Literal;
+use Envoyr\NginxConfigurator\Node\Param;
 
 require __DIR__ . '/../vendor/autoload.php';
 
@@ -170,12 +170,12 @@ server {
 There are also methods to read and dump file:
 
 ```php
-use Madkom\NginxConfigurator\Builder;
-use Madkom\NginxConfigurator\Config\Location;
-use Madkom\NginxConfigurator\Config\Server;
-use Madkom\NginxConfigurator\Node\Directive;
-use Madkom\NginxConfigurator\Node\Literal;
-use Madkom\NginxConfigurator\Parser;
+use Envoyr\NginxConfigurator\Builder;
+use Envoyr\NginxConfigurator\Config\Location;
+use Envoyr\NginxConfigurator\Config\Server;
+use Envoyr\NginxConfigurator\Node\Directive;
+use Envoyr\NginxConfigurator\Node\Literal;
+use Envoyr\NginxConfigurator\Parser;
 
 require __DIR__ . '/../vendor/autoload.php';
 

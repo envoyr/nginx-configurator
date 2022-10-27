@@ -7,12 +7,12 @@
  */
 namespace Envoyr\NginxConfigurator\Config;
 
-use Madkom\NginxConfigurator\Node\Context;
-use Madkom\NginxConfigurator\Node\Directive;
+use Envoyr\NginxConfigurator\Node\Context;
+use Envoyr\NginxConfigurator\Node\Directive;
 
 /**
  * Class Http
- * @package Madkom\NginxConfigurator\Config
+ * @package Envoyr\NginxConfigurator\Config
  * @author Michał Brzuchalski <m.brzuchalski@madkom.pl>
  */
 class Http extends Context

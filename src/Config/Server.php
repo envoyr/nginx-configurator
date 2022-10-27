@@ -7,11 +7,11 @@
  */
 namespace Envoyr\NginxConfigurator\Config;
 
-use Madkom\NginxConfigurator\Node\Context;
+use Envoyr\NginxConfigurator\Node\Context;
 
 /**
  * Class Server
- * @package Madkom\NginxConfigurator\Config
+ * @package Envoyr\NginxConfigurator\Config
  * @author Michał Brzuchalski <m.brzuchalski@madkom.pl>
  */
 class Server extends Context

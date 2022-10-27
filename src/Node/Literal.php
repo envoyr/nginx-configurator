@@ -9,7 +9,7 @@ namespace Envoyr\NginxConfigurator\Node;
 
 /**
  * Class Literal
- * @package Madkom\NginxConfigurator
+ * @package Envoyr\NginxConfigurator
  * @author Michał Brzuchalski <m.brzuchalski@madkom.pl>
  */
 class Literal extends Param

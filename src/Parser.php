@@ -15,22 +15,22 @@ use Ferno\Loco\LazyAltParser;
 use Ferno\Loco\ParseFailureException;
 use Ferno\Loco\RegexParser;
 use Ferno\Loco\StringParser;
-use Madkom\NginxConfigurator\Config\Events;
-use Madkom\NginxConfigurator\Config\Http;
-use Madkom\NginxConfigurator\Config\Location;
-use Madkom\NginxConfigurator\Config\Server;
-use Madkom\NginxConfigurator\Config\Upstream;
-use Madkom\NginxConfigurator\Exception\GrammarException;
-use Madkom\NginxConfigurator\Exception\UnrecognizedContextException;
-use Madkom\NginxConfigurator\Node\Context;
-use Madkom\NginxConfigurator\Node\Directive;
-use Madkom\NginxConfigurator\Node\Literal;
-use Madkom\NginxConfigurator\Node\Param;
-use Madkom\NginxConfigurator\Node\RootNode;
+use Envoyr\NginxConfigurator\Config\Events;
+use Envoyr\NginxConfigurator\Config\Http;
+use Envoyr\NginxConfigurator\Config\Location;
+use Envoyr\NginxConfigurator\Config\Server;
+use Envoyr\NginxConfigurator\Config\Upstream;
+use Envoyr\NginxConfigurator\Exception\GrammarException;
+use Envoyr\NginxConfigurator\Exception\UnrecognizedContextException;
+use Envoyr\NginxConfigurator\Node\Context;
+use Envoyr\NginxConfigurator\Node\Directive;
+use Envoyr\NginxConfigurator\Node\Literal;
+use Envoyr\NginxConfigurator\Node\Param;
+use Envoyr\NginxConfigurator\Node\RootNode;
 
 /**
  * Class Parser
- * @package Madkom\NginxConfigurator
+ * @package Envoyr\NginxConfigurator
  * @author Michał Brzuchalski <m.brzuchalski@madkom.pl>
  */
 class Parser extends Grammar

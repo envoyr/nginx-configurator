@@ -1,9 +1,9 @@
 <?php
 
-use Madkom\NginxConfigurator\Builder;
-use Madkom\NginxConfigurator\Config\Server;
-use Madkom\NginxConfigurator\Node\Node;
-use Madkom\NginxConfigurator\Parser;
+use Envoyr\NginxConfigurator\Builder;
+use Envoyr\NginxConfigurator\Config\Server;
+use Envoyr\NginxConfigurator\Node\Node;
+use Envoyr\NginxConfigurator\Parser;
 
 require __DIR__ . '/../vendor/autoload.php';
 

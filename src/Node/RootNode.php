@@ -9,7 +9,7 @@ namespace Envoyr\NginxConfigurator\Node;
 
 /**
  * Class RootNode
- * @package Madkom\NginxConfigurator\node
+ * @package Envoyr\NginxConfigurator\node
  * @author Michał Brzuchalski <m.brzuchalski@madkom.pl>
  */
 class RootNode extends Node

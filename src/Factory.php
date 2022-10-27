@@ -7,14 +7,14 @@
  */
 namespace Envoyr\NginxConfigurator;
 
-use Madkom\NginxConfigurator\Config\Location;
-use Madkom\NginxConfigurator\Config\Server;
-use Madkom\NginxConfigurator\Node\Directive;
-use Madkom\NginxConfigurator\Node\Param;
+use Envoyr\NginxConfigurator\Config\Location;
+use Envoyr\NginxConfigurator\Config\Server;
+use Envoyr\NginxConfigurator\Node\Directive;
+use Envoyr\NginxConfigurator\Node\Param;
 
 /**
  * Class Factory
- * @package Madkom\NginxConfigurator
+ * @package Envoyr\NginxConfigurator
  * @author Michał Brzuchalski <m.brzuchalski@madkom.pl>
  */
 class Factory

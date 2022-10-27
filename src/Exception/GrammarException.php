@@ -11,7 +11,7 @@ use Exception;
 
 /**
  * Class GrammarException
- * @package Madkom\NginxConfigurator\Exception
+ * @package Envoyr\NginxConfigurator\Exception
  * @author Michał Brzuchalski <m.brzuchalski@madkom.pl>
  */
 class GrammarException extends Exception

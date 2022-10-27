@@ -7,12 +7,12 @@
  */
 namespace Envoyr\NginxConfigurator\Node;
 
-use Madkom\Collection\CustomTypedCollection;
+use Envoyr\Collection\CustomTypedCollection;
 use Traversable;
 
 /**
  * Class Directive
- * @package Madkom\NginxConfigurator
+ * @package Envoyr\NginxConfigurator
  * @author Michał Brzuchalski <m.brzuchalski@madkom.pl>
  */
 class Directive extends Node
