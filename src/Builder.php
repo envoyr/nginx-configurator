@@ -8,7 +8,7 @@
 namespace Envoyr\NginxConfigurator;
 
 use Countable;
-use Envoyr\Collection\CustomTypedCollection;
+use Envoyr\NginxConfigurator\Collection\CustomTypedCollection;
 use Envoyr\NginxConfigurator\Node\Node;
 use Envoyr\NginxConfigurator\Node\RootNode;
 use Traversable;

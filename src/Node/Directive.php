@@ -7,7 +7,7 @@
  */
 namespace Envoyr\NginxConfigurator\Node;
 
-use Envoyr\Collection\CustomTypedCollection;
+use Envoyr\NginxConfigurator\Collection\CustomTypedCollection;
 use Traversable;
 
 /**

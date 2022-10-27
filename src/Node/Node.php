@@ -9,7 +9,7 @@ namespace Envoyr\NginxConfigurator\Node;
 
 use Countable;
 use IteratorAggregate;
-use Envoyr\Collection\CustomTypedCollection;
+use Envoyr\NginxConfigurator\Collection\CustomTypedCollection;
 use Traversable;
 
 /**
