@@ -1,10 +1,4 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: mbrzuchalski
- * Date: 14.06.16
- * Time: 11:22
- */
 namespace Envoyr\NginxConfigurator;
 
 use Envoyr\NginxConfigurator\Config\Location;
@@ -27,7 +21,7 @@ class Factory
     public function createServer(int $port = 80) : Server
     {
         $listenIPv4 = new Directive('listen', [new Param($port)]);
-        $listenIPv6 = new Directive('listen', [new Param("[::]:{$port}"), new Param('default'), new Param('ipv6only=on')]);
+        $listenIPv6 = new Directive('listen', [new Param("[::]:{$port}")]);
 
         return new Server([$listenIPv4, $listenIPv6]);
     }
