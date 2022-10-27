@@ -5,7 +5,7 @@
  * Date: 14.06.16
  * Time: 11:22
  */
-namespace Madkom\NginxConfigurator;
+namespace Envoyr\NginxConfigurator;
 
 use Madkom\NginxConfigurator\Config\Location;
 use Madkom\NginxConfigurator\Config\Server;

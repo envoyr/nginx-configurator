@@ -2,15 +2,17 @@
 
 use Madkom\NginxConfigurator\Builder;
 use Madkom\NginxConfigurator\Config\Location;
+use Madkom\NginxConfigurator\Factory;
 use Madkom\NginxConfigurator\Node\Directive;
 use Madkom\NginxConfigurator\Node\Literal;
 use Madkom\NginxConfigurator\Node\Param;
 
 require __DIR__ . '/../vendor/autoload.php';
 
+$factory = new Factory();
 $builder = new Builder();
 
-$server = $builder->addServerNode(80);
+$server = $builder->append($factory->createServer(80));
 $server->append(new Directive('error_log', [new Param('/var/log/nginx/error.log'), new Param('debug')]));
 $server->append(new Location(new Param('/test'), null, [
     new Directive('error_page', [new Param('401'), new Param('@unauthorized')]),

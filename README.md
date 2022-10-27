@@ -3,14 +3,7 @@ NGINX Configurator
 
 PHP Library for NGINX configuration parser/generator
 
-![PHP 7.0](https://img.shields.io/badge/PHP-7.0-8C9CB6.svg?style=flat)
-[![Build Status](https://travis-ci.org/madkom/nginx-configurator.svg?branch=master)](https://travis-ci.org/madkom/nginx-configurator)
-[![Latest Stable Version](https://poser.pugx.org/madkom/nginx-configurator/v/stable)](https://packagist.org/packages/madkom/nginx-configurator)
-[![Total Downloads](https://poser.pugx.org/madkom/nginx-configurator/downloads)](https://packagist.org/packages/madkom/nginx-configurator)
-[![License](https://poser.pugx.org/madkom/nginx-configurator/license)](https://packagist.org/packages/madkom/nginx-configurator)
-[![Coverage Status](https://coveralls.io/repos/github/madkom/nginx-configurator/badge.svg?branch=master)](https://coveralls.io/github/madkom/nginx-configurator?branch=master)
-[![Code Climate](https://codeclimate.com/github/madkom/nginx-configurator/badges/gpa.svg)](https://codeclimate.com/github/madkom/nginx-configurator)
-[![Issue Count](https://codeclimate.com/github/madkom/nginx-configurator/badges/issue_count.svg)](https://codeclimate.com/github/madkom/nginx-configurator)
+![PHP 8.1](https://img.shields.io/badge/PHP-8.1-8C9CB6.svg?style=flat)
 
 ---
 
@@ -25,12 +18,12 @@ In near future will provide CLI commands for NGINX configuration.
 Install with Composer
 
 ```
-composer require madkom/nginx-configurator
+composer require envoyr/nginx-configurator
 ```
 
 ## Requirements
 
-This library requires *PHP* in `~7` version.
+This library requires *PHP* in `>=8.1` version.
 
 ## Usage
 
@@ -215,6 +208,7 @@ $builder->dumpFile('generated.conf');
 The MIT License (MIT)
 
 Copyright (c) 2016 Madkom S.A.
+Copyright (c) 2022 envoyr <hello@envoyr.com>
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

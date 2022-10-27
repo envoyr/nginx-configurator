@@ -1,6 +1,6 @@
 #!/usr/bin/env php
 <?php
-namespace Madkom\NginxConfigurator;
+namespace Envoyr\NginxConfigurator;
 
 if (file_exists(__DIR__ . '/../vendor/autoload.php')) {
     // Called from local git clone.

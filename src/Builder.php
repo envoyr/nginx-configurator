@@ -5,7 +5,7 @@
  * Date: 18.04.16
  * Time: 11:06
  */
-namespace Madkom\NginxConfigurator;
+namespace Envoyr\NginxConfigurator;
 
 use Countable;
 use Madkom\Collection\CustomTypedCollection;

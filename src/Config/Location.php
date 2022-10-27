@@ -5,7 +5,7 @@
  * Date: 08.04.16
  * Time: 21:01
  */
-namespace Madkom\NginxConfigurator\Config;
+namespace Envoyr\NginxConfigurator\Config;
 
 use Madkom\NginxConfigurator\Node\Context;
 use Madkom\NginxConfigurator\Node\Literal;

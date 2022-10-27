@@ -5,7 +5,7 @@
  * Date: 06.04.16
  * Time: 13:01
  */
-namespace Madkom\NginxConfigurator;
+namespace Envoyr\NginxConfigurator;
 
 use Ferno\Loco\ConcParser;
 use Ferno\Loco\Grammar;

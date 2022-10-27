@@ -5,7 +5,7 @@
  * Date: 08.04.16
  * Time: 20:53
  */
-namespace Madkom\NginxConfigurator\Node;
+namespace Envoyr\NginxConfigurator\Node;
 
 /**
  * Class Context

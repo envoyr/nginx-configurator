@@ -5,7 +5,7 @@
  * Date: 06.04.16
  * Time: 13:40
  */
-namespace Madkom\NginxConfigurator\Node;
+namespace Envoyr\NginxConfigurator\Node;
 
 use Madkom\Collection\CustomTypedCollection;
 use Traversable;

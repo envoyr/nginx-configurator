@@ -5,7 +5,7 @@
  * Date: 13.04.16
  * Time: 09:22
  */
-namespace Madkom\NginxConfigurator\Exception;
+namespace Envoyr\NginxConfigurator\Exception;
 
 use Exception;
 
