@@ -201,7 +201,6 @@ $builder->dumpFile('generated.conf');
 ## TODO
 
 * [ ] Implement comments parsing
-* [ ] Implement commands for config manipulation from CLI
 
 ## License
 
