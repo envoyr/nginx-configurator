@@ -49,6 +49,6 @@ $builder = new Builder();
 if (count($defaultServers) > 0) {
     /** @var Server $defaultServer */
     foreach ($defaultServers as $defaultServer) {
-        $builder->appendServerNode($defaultServer);
+        $builder->append($defaultServer);
     }
 }
