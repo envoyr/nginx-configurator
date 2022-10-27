@@ -1,17 +1,11 @@
 NGINX Configurator
 ==================
 
-PHP Library for NGINX configuration generator
+PHP Library for NGINX configuration generator.
 
 ![PHP 8.1](https://img.shields.io/badge/PHP-8.1-8C9CB6.svg?style=flat)
 
 ---
-
-## Features
-
-This library can parse and generate NGINX configuration files.
-In near future will provide CLI commands for NGINX configuration.
-
 
 ## Installation
 
@@ -23,7 +17,7 @@ composer require envoyr/nginx-configurator
 
 ## Requirements
 
-This library requires *PHP* in `>=8.1` version.
+This library requires *PHP* in `^8.1` version.
 
 ## Usage
 
@@ -112,10 +106,6 @@ server {
         
 }
 ```
-
-## TODO
-
-* [ ] Implement comments parsing
 
 ## License
 
