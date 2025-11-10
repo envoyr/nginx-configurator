@@ -16,12 +16,13 @@ class Factory
     /**
      * Creates Server node
      * @param int $port
+     * @param array $additionalParams
      * @return Server
      */
-    public function createServer(int $port = 80) : Server
+    public function createServer(int $port = 80, array $additionalParams = []) : Server
     {
-        $listenIPv4 = new Directive('listen', [new Param($port)]);
-        $listenIPv6 = new Directive('listen', [new Param("[::]:{$port}")]);
+        $listenIPv4 = new Directive('listen', [new Param($port), ...$additionalParams]);
+        $listenIPv6 = new Directive('listen', [new Param("[::]:{$port}"), ...$additionalParams]);
 
         return new Server([$listenIPv4, $listenIPv6]);
     }
