@@ -46,7 +46,7 @@ class Location extends Context
     public function __toString() : string
     {
         return sprintf(
-            "{$this->name} %s %s {\n\t%s\n}\n",
+            "{$this->name} %s %s {\n\t%s\n}",
             $this->match,
             $this->location,
             implode("\n\t", (array)$this->childNodes->getIterator())
